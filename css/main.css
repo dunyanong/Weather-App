@@ -14,6 +14,10 @@ ul {
     list-style: none;
 }
 
+.weather-title{
+    color: #30655d;
+}
+
 .row {
     max-width: 1200px;
     margin: 0 auto;
@@ -24,6 +28,11 @@ ul {
     height: 20px;
     width: 20px;
     fill: #fff;
+    
+}
+
+.icon-target1{
+    margin: 50% 50% 50% 30% ;
 }
 
 a {
@@ -48,6 +57,8 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 3px 10px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 3px;
 }
 
 .header__geolocate {
@@ -138,6 +149,7 @@ input {
 
 .forecast {
     margin-top: 5rem;
+    margin-bottom: 20rem;
 }
 .forecast .row {
     display:flex;
@@ -145,11 +157,17 @@ input {
     flex-wrap: wrap;
 }
 .forecast__day {
-    background: #4a9a8f;
     text-align: center;
     /* padding: 1rem 5rem; */
     margin-bottom: .8rem;
     flex: 1 0 100%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 }
 
 .forecast__date {
@@ -161,6 +179,12 @@ input {
 
 .forecast__temp {
     font-size: 1.8rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 600px) {

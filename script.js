@@ -119,7 +119,7 @@ geolocateIcons.forEach((icon) => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(geosuccess);
     } else {
-      alert('Your browser does not support geolocatio');
+      alert('Your browser does not support geolocation');
     }
   });
 });
