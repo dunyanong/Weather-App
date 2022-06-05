@@ -15,7 +15,12 @@ ul {
 }
 
 .weather-title{
+    padding: 0%;
     color: #30655d;
+}
+
+.name-title{
+    color: white;
 }
 
 .row {
