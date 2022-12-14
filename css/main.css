@@ -15,12 +15,13 @@ ul {
 }
 
 .weather-title{
-    padding: 0%;
     color: #30655d;
+    font-size: 3rem;
 }
 
 .name-title{
     color: white;
+    font-size: 1rem;
 }
 
 .row {
@@ -62,7 +63,6 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 3px 10px 0 rgba( 31, 38, 135, 0.37 );
     border-radius: 3px;
 }
 
